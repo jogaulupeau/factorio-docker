@@ -8,7 +8,7 @@ set -eo pipefail
 
 declare savedir="/factorio/saves"
 declare bin="/factorio/bin/x64/factorio"
-declare PORT=34791
+declare PORT=34197
 
 refresh_save() {
   declare save_name="$1"
